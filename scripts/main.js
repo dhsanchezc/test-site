@@ -22,7 +22,7 @@ function setUserName() {
 }
 
 function newFunction(){
-    console.log('implemented 2!');
+    console.log('implemented 3!');
 } 
 
 if (!localStorage.getItem("name")) {
