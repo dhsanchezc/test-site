@@ -21,6 +21,9 @@ function setUserName() {
     }
 }
 
+function newFunction(){
+} 
+
 if (!localStorage.getItem("name")) {
     setUserName();
 } {
