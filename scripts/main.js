@@ -22,6 +22,7 @@ function setUserName() {
 }
 
 function newFunctionality(){    
+    console.log('finally');
 }
 
 if (!localStorage.getItem("name")) {
