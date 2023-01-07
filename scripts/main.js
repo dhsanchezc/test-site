@@ -19,17 +19,13 @@ function setUserName() {
         localStorage.setItem("name", myName);
         myHeading.textContent = `Mozilla is cool, ${myName}`;
     }
-}
-
-function newFunction() {
-    console.log('new functionality');
-}    
+}  
 
 if (!localStorage.getItem("name")) {
     setUserName();
 } {
     const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Mozilla is so super cool, ${storedName}`;
+    myHeading.textContent = `Mozilla is cool, ${storedName}`;
 }
 
 myButton.onclick = () => {
